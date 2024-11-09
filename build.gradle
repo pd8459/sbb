@@ -34,6 +34,8 @@ dependencies {
     implementation 'jakarta.validation:jakarta.validation-api:3.0.2'
     implementation 'org.hibernate.validator:hibernate-validator:7.0.4.Final' // 유효성 검사 기능을 제공하는 구현체
     implementation 'org.glassfish:jakarta.el:4.0.0' // EL (Expression Language) 지원 라이브러리
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    implementation 'org.thymeleaf.extras:thymeleaf-extras-springsecurity6'
 }
 
 tasks.named('test') {
